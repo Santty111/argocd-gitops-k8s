@@ -4,6 +4,7 @@ metadata:
   name: web-gitops-deployment
   labels:
     app: web-gitops
+    version: "v2"
 spec:
   replicas: 2
   selector:
